@@ -1,0 +1,21 @@
+[ {
+  "uid" : "177a9bafcce36225",
+  "name" : "Verify Get All Products api call gets all products in db",
+  "time" : {
+    "start" : 1599468603608,
+    "stop" : 1599468603646,
+    "duration" : 38
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ae1cdec10944f12",
+  "name" : "Valid user should be able to login",
+  "time" : {
+    "start" : 1599468603653,
+    "stop" : 1599468603656,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,2 @@
+#from ecommerce_common.common_api_calls import products_rest_api
+from ecommerce_common.common_steps import products_restapi_steps

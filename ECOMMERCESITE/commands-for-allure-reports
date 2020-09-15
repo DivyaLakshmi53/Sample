@@ -1,0 +1,19 @@
+Go to folder where testcases are located
+behave -f allure_behave.formatter:AllureFormatter -o allure_result_folder
+
+Folder gets created by folder name i give about for the allure results
+
+allure serve allure_result_folder
+ 
+Above command converts the json o/p files to a html test report, with TRACE for errors 
+
+ssteps to setup allure:
+---------------------------
+pip install allure-behave
+
+Setup allure through powershell, following steps below.
+
+Run allure from cmd pmt to see it's installed. If java errors, install jdk/jre, set java_home environment variable following steps below:
+https://daisy.github.io/pipeline/Get-Help/Troubleshooting/Common-Errors-Windows/
+
+https://winaero.com/blog/find-powershell-version-windows/

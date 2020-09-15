@@ -1,0 +1,108 @@
+{
+  "uid" : "177a9bafcce36225",
+  "name" : "Verify Get All Products api call gets all products in db",
+  "historyId" : "ff990278768bf6509db6ad250f754e76",
+  "time" : {
+    "start" : 1599468603608,
+    "stop" : 1599468603646,
+    "duration" : 38
+  },
+  "status" : "broken",
+  "statusMessage" : "Exception: The Woocommerce 'WC_KEY' & 'WC_SECRET' must be set as env variables\n",
+  "statusTrace" : "  File \"c:\\users\\divyasivakumar\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"c:\\users\\divyasivakumar\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"c:\\users\\divyasivakumar\\pycharmprojects\\ecommercesite\\ecommerce_common\\common_steps\\products_restapi_steps.py\", line 8, in i_execute_get_all_products_rest_api\n    products_api = products_rest_api.list_all_products()\n  File \"c:\\users\\divyasivakumar\\pycharmprojects\\ecommercesite\\ecommerce_common\\common_api_calls\\products_rest_api.py\", line 8, in list_all_products\n    response = WooRequestHelpers().get('products', params=params)\n  File \"c:\\users\\divyasivakumar\\pycharmprojects\\ecommercesite\\ecommerce_common\\common_helpers\\woo_request_helpers.py\", line 11, in __init__\n    wc_cred = cred_helper.get_wc_credentials()\n  File \"c:\\users\\divyasivakumar\\pycharmprojects\\ecommercesite\\ecommerce_common\\common_helpers\\credentials_helper.py\", line 21, in get_wc_credentials\n    raise Exception(\"The Woocommerce 'WC_KEY' & 'WC_SECRET' must be set as env variables\")\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Exception: The Woocommerce 'WC_KEY' & 'WC_SECRET' must be set as env variables\n",
+    "statusTrace" : "  File \"c:\\users\\divyasivakumar\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"c:\\users\\divyasivakumar\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"c:\\users\\divyasivakumar\\pycharmprojects\\ecommercesite\\ecommerce_common\\common_steps\\products_restapi_steps.py\", line 8, in i_execute_get_all_products_rest_api\n    products_api = products_rest_api.list_all_products()\n  File \"c:\\users\\divyasivakumar\\pycharmprojects\\ecommercesite\\ecommerce_common\\common_api_calls\\products_rest_api.py\", line 8, in list_all_products\n    response = WooRequestHelpers().get('products', params=params)\n  File \"c:\\users\\divyasivakumar\\pycharmprojects\\ecommercesite\\ecommerce_common\\common_helpers\\woo_request_helpers.py\", line 11, in __init__\n    wc_cred = cred_helper.get_wc_credentials()\n  File \"c:\\users\\divyasivakumar\\pycharmprojects\\ecommercesite\\ecommerce_common\\common_helpers\\credentials_helper.py\", line 21, in get_wc_credentials\n    raise Exception(\"The Woocommerce 'WC_KEY' & 'WC_SECRET' must be set as env variables\")\n",
+    "steps" : [ {
+      "name" : "Given I execute get all products rest api",
+      "time" : {
+        "start" : 1599468603611,
+        "stop" : 1599468603644,
+        "duration" : 33
+      },
+      "status" : "broken",
+      "statusMessage" : "Exception: The Woocommerce 'WC_KEY' & 'WC_SECRET' must be set as env variables\n",
+      "statusTrace" : "  File \"c:\\users\\divyasivakumar\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"c:\\users\\divyasivakumar\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"c:\\users\\divyasivakumar\\pycharmprojects\\ecommercesite\\ecommerce_common\\common_steps\\products_restapi_steps.py\", line 8, in i_execute_get_all_products_rest_api\n    products_api = products_rest_api.list_all_products()\n  File \"c:\\users\\divyasivakumar\\pycharmprojects\\ecommercesite\\ecommerce_common\\common_api_calls\\products_rest_api.py\", line 8, in list_all_products\n    response = WooRequestHelpers().get('products', params=params)\n  File \"c:\\users\\divyasivakumar\\pycharmprojects\\ecommercesite\\ecommerce_common\\common_helpers\\woo_request_helpers.py\", line 11, in __init__\n    wc_cred = cred_helper.get_wc_credentials()\n  File \"c:\\users\\divyasivakumar\\pycharmprojects\\ecommercesite\\ecommerce_common\\common_helpers\\credentials_helper.py\", line 21, in get_wc_credentials\n    raise Exception(\"The Woocommerce 'WC_KEY' & 'WC_SECRET' must be set as env variables\")\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "When I get all products from db",
+      "time" : {
+        "start" : 1599468603645,
+        "stop" : 1599468603646,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then Total no of products in get call matches products count from db",
+      "time" : {
+        "start" : 1599468603646,
+        "stop" : 1599468603646,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Products API Tests"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "177a9bafcce36225.json",
+  "parameterValues" : [ ]
+}

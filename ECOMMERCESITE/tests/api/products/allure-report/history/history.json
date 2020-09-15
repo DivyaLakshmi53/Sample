@@ -1,0 +1,42 @@
+{
+  "9101bbbb11693913dc01647d565ce905" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ae1cdec10944f12",
+      "status" : "broken",
+      "statusDetails" : "\nYou can implement step definitions for undefined steps with these snippets:\n\n@when(u'I enter \\\\'test@testuser.com\\\\' in email field')\ndef step_impl(context):\n    raise NotImplementedError(u'STEP: When I enter \\\\'test@testuser.com\\\\' in email field')\n\n",
+      "time" : {
+        "start" : 1599468603653,
+        "stop" : 1599468603656,
+        "duration" : 3
+      }
+    } ]
+  },
+  "ff990278768bf6509db6ad250f754e76" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "177a9bafcce36225",
+      "status" : "broken",
+      "statusDetails" : "Exception: The Woocommerce 'WC_KEY' & 'WC_SECRET' must be set as env variables\n",
+      "time" : {
+        "start" : 1599468603608,
+        "stop" : 1599468603646,
+        "duration" : 38
+      }
+    } ]
+  }
+}
